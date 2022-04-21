@@ -9,14 +9,14 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Favorites Citys</div>
+      <div className={classes.logo}>Favorites Cities </div>
       <nav>
         <ul>
           <li>
-            <Link to='/'>All Meetups</Link>
+            <Link to='/'>Cities</Link>
           </li>
           <li>
-            <Link to='/new-meetup'>Add New Meetup</Link>
+            <Link to='/new-meetup'>Add New City</Link>
           </li>
           <li>
             <Link to='/favorites'>
