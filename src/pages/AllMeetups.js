@@ -6,7 +6,7 @@ function AllMeetupsPage() {
   const [loadedMeetups, setLoadedMeetups] = useState([]);
   useEffect(() => {
     setIsLoading(true);
-    fetch('https://tourism-15e28-default-rtdb.firebaseio.com/meetups.json')
+    fetch('https://tourism-15e28-default-rtdb.firebaseio.com')
       .then((response) => {
         return response.json();
       })
